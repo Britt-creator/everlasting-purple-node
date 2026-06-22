@@ -1,0 +1,1130 @@
+{
+  "plan": "- Solid-state driver system utilizing an ATTINY85 MCU, GaN power transistors (EPC2034C/EPC2019), and custom resonant tank coils.\n- Power management via LMR36520 buck regulator and a 6-cell series supercapacitor bank for grid-isolated operation.\n- Vacuum-sealed borosilicate glass globe housing a Zirconia-Yttria ceramic button core on a platinum lead wire.\n- Structural fused quartz stem rod for internal lead insulation and high-frequency shielding.\n- CNC-machined 6061-T6 aluminum chassis with integrated radial cooling fins for thermal dissipation.\n- Universal E26 brass threaded base interface secured with high-temperature ceramic cement potting.",
+  "nodes": [
+    {
+      "id": "quartz_stem_rod",
+      "name": "Internal Lead Shield",
+      "type": "structural",
+      "partId": "2de2bd08-3593-42ac-b200-7b0a3f171fe4",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Fused+Quartz+Capillary+Tubing&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "category": "mechanical",
+      "material": "Fused Quartz",
+      "quantity": 1,
+      "dimensions": "6x6x60mm",
+      "description": "High-purity quartz tube protecting the platinum electrode from gas arcing and providing structural support.",
+      "productName": "Fused Quartz Capillary Tubing",
+      "purchaseUrl": "https://www.amazon.com/s?k=fused+quartz+tubing+6mm",
+      "aliexpressUrl": "https://s.click.aliexpress.com/e/_c3klQ9vF",
+      "estimatedCost": 1.2,
+      "boundingBox": {
+        "width": 6,
+        "height": 60,
+        "depth": 6
+      },
+      "position3d": {
+        "x": 0,
+        "y": 95,
+        "z": 0
+      }
+    },
+    {
+      "id": "chassis_set_screws",
+      "name": "Base Locking Screws",
+      "type": "misc",
+      "partId": "5b24c47c-f558-4b54-8c64-02dff232736d",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=M2.5+Hex+Socket+Set+Screws&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "category": "mechanical",
+      "material": "Stainless Steel",
+      "quantity": 4,
+      "dimensions": "M2.5x4mm",
+      "description": "Stainless steel set screws for securing the aluminum chassis to the ceramic collar.",
+      "productName": "M2.5 Hex Socket Set Screws",
+      "purchaseUrl": "https://www.amazon.com/s?k=M2.5+set+screws",
+      "aliexpressUrl": "https://s.click.aliexpress.com/s/fwx308cRD9Eny963e3KDdYxyIpNj8TXVr7saiF9Um5rMUg1kZtJALLnfa2LNXtiVgnxdD8Og6MmvwBoxhnSYQGM6r0c08U4TfX8DFGo7vviCuu3q62Q60OAhRZcqm3G8PtwM69xY7TOEWRrvulP5ukZQ4uQbBBtaVsdr6EffAqVmp3O5GyUANU2DoA3dJufNhDfh7KOlLgKIvRVhDxRESHLmea6fTE26gLUqKEUuuizJiLENrCbax94DZHDu8WhaXM9vQ86gzlqceNPO5w3vwXm4VrBF3x2lAMEl06wgNdTSMiT7cNG4HIdW0JyaDxyFwYUQLXe3R7bQTJgcIfzNTpVhrBXoyHjRpVHcA6P1M7ZWCLauqBh1A7NLidZb37tJ5kzluxM5551x3JgAFIDtFdFfc4ylm29YuvmXOOT5KMOzfwlAEKYgisax0bl1FWyhSC0QXfJelowUWjAEqm9PIi06mrpZupLxKMw4Kh2se0Lr9o5N2UmYDgOlAdtLlLVzbaNfAbri8Vtedfg8nXc9h1EWBVzrspPadblUDNmznwwZzRkPeYyP9oqmukFTYDpIM0uXF76inFl5kBOvaat2dVxzqYqqKrMxxK9nLVfLnP7DD3DzVC5766DmGXqYxh6EkCjqL7KuFGmPJA25G4HssanpSdpjJbMCcT2fbAp5CqJGi6B2TJghJEe2go4CCAnu11Nrskd9PRfD0Ah7weX2DUficmRRZhNIxRzKItUOHQPqHqvYTn4YcyzLAVOmet3zJYhWT3Z0lMFmK0gz1TI5hHupZInAV16EneSvpKjEMj0pExVYjsZo9bFthUKH2Nzm8ySinrdwKr7rOFfx7El7uqGnHrJltdGhNpGGibzc0rwkz0GBtUOFK7JfAVAFmKiUfUZzj8BBitoW0WGqg1tVSpDGagyLhhuPPiL5EKw4oSwMvcaetdZzD3DuBaykVEeZtNCnusKrKdJkx8Lmbt",
+      "estimatedCost": 0.15
+    },
+    {
+      "id": "argon_canister",
+      "name": "Ultra-Pure Argon Fill",
+      "type": "misc",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Research+Grade+Argon+99.9999%25&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "category": "mechanical",
+      "quantity": 1,
+      "description": "Atmospheric replacement to prevent oxidation of the zirconia and platinum elements.",
+      "productName": "Research Grade Argon 99.9999%",
+      "purchaseUrl": "https://www.airgas.com/p/AR-RS300",
+      "estimatedCost": 65
+    },
+    {
+      "id": "non_evaporable_getter",
+      "name": "Hydrogen/Oxygen Getter",
+      "type": "other",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=SAES+Getters+St172+Sintered+Porous+Getter&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "category": "mechanical",
+      "quantity": 1,
+      "description": "Chemical pump to capture outgassed water vapor and oxygen inside the sealed globe.",
+      "productName": "SAES Getters St172 Sintered Porous Getter",
+      "purchaseUrl": "https://www.saesgetters.com/products/getters-electronic-devices",
+      "estimatedCost": 45
+    },
+    {
+      "id": "non_evaporable_getter",
+      "name": "Hydrogen/Oxygen Getter",
+      "type": "other",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=SAES+Getters+St172+Sintered+Porous+Getter&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "category": "mechanical",
+      "quantity": 1,
+      "description": "Chemical pump to capture outgassed water vapor and oxygen inside the sealed globe.",
+      "productName": "SAES Getters St172 Sintered Porous Getter",
+      "purchaseUrl": "https://www.saesgetters.com/products/getters-electronic-devices",
+      "estimatedCost": 45
+    },
+    {
+      "id": "high_temp_silicone_sealant",
+      "name": "High-Temp Silicone",
+      "productName": "Permatex Red High-Temp RTV Silicone",
+      "category": "mechanical",
+      "type": "misc",
+      "quantity": 1,
+      "estimatedCost": 9.5,
+      "purchaseUrl": "https://www.amazon.com/s?k=high+temp+rtv+silicone",
+      "description": "Fast-curing sealant for structural bonding and sealing up to 650F.",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Permatex+Red+High-Temp+RTV+Silicone&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1"
+    },
+    {
+      "id": "qi_receiver_module",
+      "name": "Qi Wireless Module",
+      "productName": "Adafruit Universal Qi Wireless Receiver",
+      "category": "electrical",
+      "type": "module",
+      "quantity": 1,
+      "estimatedCost": 15,
+      "purchaseUrl": "https://www.adafruit.com/product/1901",
+      "description": "Integrated 250kHz resonant charging module with rectified output.",
+      "pins": [
+        "VCC",
+        "GND",
+        "L1",
+        "L2"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Adafruit+Universal+Qi+Wireless+Receiver&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/31kB0JozR9L._SL500_.jpg"
+    },
+    {
+      "id": "frosted_dycenian_globe",
+      "name": "Dycenian Frosted Globe",
+      "productName": "Borosilicate Globe with Dy-Doped Frosted Finish",
+      "category": "mechanical",
+      "type": "enclosure",
+      "quantity": 1,
+      "estimatedCost": 42,
+      "purchaseUrl": "https://www.custom-glass-solutions.com",
+      "description": "Custom frosted borosilicate glass globe embedded with Dycenian pigment to shift spectrum toward 4500K.",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Borosilicate+Globe+with+Dy-Doped+Frosted+Finish&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "boundingBox": {
+        "width": 80,
+        "height": 90,
+        "depth": 80
+      },
+      "position3d": {
+        "x": 0,
+        "y": 110,
+        "z": 0
+      }
+    },
+    {
+      "id": "capacitive_mesh_sleeve",
+      "name": "Capacitive Return Mesh",
+      "productName": "Fine Copper Wire Mesh 100x100",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 1,
+      "estimatedCost": 8.25,
+      "purchaseUrl": "https://www.amazon.com/s?k=copper+wire+mesh+fine",
+      "description": "External capacitive coupling sleeve that wraps around the globe neck to complete the RF circuit.",
+      "pins": [
+        "RF_RETURN"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Fine+Copper+Wire+Mesh+100x100&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41CX5Qs18KL._SL500_.jpg"
+    },
+    {
+      "id": "uv_c_discharge_tube",
+      "name": "UV-C Discharge Tube",
+      "productName": "G5 T5 4W UV-C Germicidal Bulb",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 1,
+      "estimatedCost": 8.5,
+      "purchaseUrl": "https://www.amazon.com/s?k=4W+UVC+germicidal+lamp",
+      "description": "Low-pressure mercury vapor tube used as the ionizable gas source.",
+      "pins": [
+        "HV_TERMINAL_A",
+        "HV_TERMINAL_B"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=G5+T5+4W+UV-C+Germicidal+Bulb&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/21CTpM57Z5L._SL500_.jpg"
+    },
+    {
+      "id": "bias_resistor_1",
+      "name": "Bias Resistor",
+      "productName": "1k Ohm 2W Metal Film Resistor",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 1,
+      "estimatedCost": 0.5,
+      "purchaseUrl": "https://www.digikey.com/en/products/filter/resistors/7",
+      "pins": [
+        "P1",
+        "P2"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=1k+Ohm+2W+Metal+Film+Resistor&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41o1R1Yb+OL._SL500_.jpg"
+    },
+    {
+      "id": "resonant_capacitor",
+      "name": "Resonant Tank Capacitor",
+      "productName": "0.1uF 630V Polypropylene Film",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 1,
+      "estimatedCost": 1.8,
+      "purchaseUrl": "https://www.digikey.com/en/products/filter/capacitors/film-capacitors/62",
+      "pins": [
+        "P1",
+        "P2"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=0.1uF+630V+Polypropylene+Film&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/216Nii2T6dL._SL500_.jpg"
+    },
+    {
+      "id": "ag_doped_ceramic_puck",
+      "name": "Silver Doped Ceramic Puck",
+      "productName": "Ceramic Disk with Ag-Nanoparticle Coating",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 1,
+      "estimatedCost": 25,
+      "purchaseUrl": "https://www.sigmaaldrich.com/US/en/search/silver-nanoparticles",
+      "description": "High-temperature ceramic puck doped with silver nanoparticles for Ag-line spectral emission.",
+      "pins": [
+        "HV_IN",
+        "RF_RET"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Ceramic+Disk+with+Ag-Nanoparticle+Coating&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://imgs.search.brave.com/HeBOCdxc2ykGUfoSim1JUelhmt_-e_EgBj7WSANr4QM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4x/MS5iaWdjb21tZXJj/ZS5jb20vcy1qYmc3/N2Z1ZGx4L2ltYWdl/cy9zdGVuY2lsLzEy/ODB4MTI4MC9wcm9k/dWN0cy80MDMvOTQ0/L0YyNV9maWxtX25v/X3BvbGluZ19fNTY4/MDguMTU5MzEyMTY3/OS5qcGc_Yz0x"
+    },
+    {
+      "id": "au_doped_ceramic_puck",
+      "name": "Gold Doped Ceramic Puck",
+      "productName": "Ceramic Disk with Au-Nanoparticle Coating",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 1,
+      "estimatedCost": 35,
+      "purchaseUrl": "https://www.sigmaaldrich.com/US/en/search/gold-nanoparticles",
+      "description": "High-temperature ceramic puck doped with gold nanoparticles for Au-line spectral emission.",
+      "pins": [
+        "HV_IN",
+        "RF_RET"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Ceramic+Disk+with+Au-Nanoparticle+Coating&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41UtOUBsSgL._SL500_.jpg"
+    },
+    {
+      "id": "noble_gas_tube_ag",
+      "name": "Noble Gas Tube (Silver Excitation)",
+      "productName": "Krypton-filled Borosilicate Discharge Tube",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 1,
+      "estimatedCost": 18,
+      "purchaseUrl": "https://www.neon-tubing.com",
+      "description": "A secondary discharge tube filled with Krypton to assist in the excitation of silver vapor.",
+      "pins": [
+        "ANODE",
+        "CATHODE"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Krypton-filled+Borosilicate+Discharge+Tube&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://imgs.search.brave.com/O204TgYkMOGG1lWxrtwP3jxQu_yK3FrpBDaORLgi6n8/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9pLmVi/YXlpbWcuY29tL2lt/YWdlcy9nL0R5QUFB/ZVN3VHA5cEQ3SGsv/cy1sMTQwLmpwZw"
+    },
+    {
+      "id": "noble_gas_tube_au",
+      "name": "Noble Gas Tube (Gold Excitation)",
+      "productName": "Xenon-filled Borosilicate Discharge Tube",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 1,
+      "estimatedCost": 22,
+      "purchaseUrl": "https://www.neon-tubing.com",
+      "description": "A secondary discharge tube filled with Xenon to assist in the excitation of gold vapor.",
+      "pins": [
+        "ANODE",
+        "CATHODE"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Xenon-filled+Borosilicate+Discharge+Tube&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/31J2AISA4IL._SL500_.jpg"
+    },
+    {
+      "id": "e65_ferrite_transformer",
+      "name": "E65 Ferrite Core Transformer",
+      "productName": "Custom E65/32/27 N87 Ferrite Transformer",
+      "category": "electrical",
+      "type": "power",
+      "quantity": 1,
+      "estimatedCost": 115,
+      "purchaseUrl": "https://www.digikey.com/en/products/filter/transformers/pulse-transformers/164",
+      "description": "Large E65-core transformer optimized for 200W throughput at 250kHz resonant frequencies.",
+      "pins": [
+        "PRI_A",
+        "PRI_B",
+        "PRI_TAP",
+        "SEC_HV",
+        "SEC_RET"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Custom+E65%2F32%2F27+N87+Ferrite+Transformer&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41+smYLipML._SL500_.jpg",
+      "boundingBox": {
+        "width": 45,
+        "height": 35,
+        "depth": 45
+      },
+      "position3d": {
+        "x": 0,
+        "y": 40,
+        "z": 0
+      }
+    },
+    {
+      "id": "boost_48v_300w",
+      "name": "48V 300W Boost Converter",
+      "productName": "300W DC-DC Step-Up Converter Module",
+      "category": "electrical",
+      "type": "power",
+      "quantity": 1,
+      "estimatedCost": 22.5,
+      "purchaseUrl": "https://www.amazon.com/s?k=300W+boost+converter+48V",
+      "description": "High-power boost module providing 48V rail for the full-bridge SiC inverter.",
+      "pins": [
+        "VIN+",
+        "VIN-",
+        "VOUT+",
+        "VOUT-",
+        "VOUT极"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=300W+DC-DC+Step-Up+Converter+Module&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41KvfHU7WxL._SL500_.jpg",
+      "boundingBox": {
+        "width": 50,
+        "height": 15,
+        "depth": 30
+      },
+      "position3d": {
+        "x": 0,
+        "y": 55,
+        "z": 0
+      }
+    },
+    {
+      "id": "large_zirconia_lattice",
+      "name": "4x Volume Zirconia Lattice",
+      "productName": "High-Volume YSZ Ceramic Lattice (Custom Print)",
+      "category": "mechanical",
+      "type": "structural",
+      "quantity": 1,
+      "estimatedCost": 240,
+      "purchaseUrl": "https://www.admatec.nl/materials/zirconia",
+      "description": "Expanded volume ceramic lattice for increased plasma emission surface area.",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=High-Volume+YSZ+Ceramic+Lattice+%28Custom+Print%29&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "boundingBox": {
+        "width": 20,
+        "height": 30,
+        "depth": 20
+      },
+      "position3d": {
+        "x": 0,
+        "y": 105,
+        "z": 0
+      }
+    },
+    {
+      "id": "supercap_50f",
+      "name": "50F Supercapacitor Module",
+      "productName": "50F 5.5V Supercapacitor Module",
+      "category": "electrical",
+      "type": "power",
+      "quantity": 1,
+      "estimatedCost": 12.5,
+      "purchaseUrl": "https://www.digikey.com/en/products/filter/capacitors/supercapacitors-double-layer-capacitors-edlc-li-cap/61",
+      "description": "Single 50F backup capacitor module to replace the high-capacity bank.",
+      "pins": [
+        "POS",
+        "NEG"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=50F+5.5V+Supercapacitor+Module&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://m.media-amazon.com/images/I/41lJjDSZFaL._SL500_.jpg",
+      "boundingBox": {
+        "width": 40,
+        "height": 20,
+        "depth": 20
+      },
+      "position3d": {
+        "x": 15,
+        "y": 35,
+        "z": 0
+      }
+    },
+    {
+      "id": "gan_power_ic",
+      "name": "GaN Power IC",
+      "productName": "Navitas NV6128 GaNFast Power IC",
+      "category": "electrical",
+      "type": "power",
+      "quantity": 1,
+      "estimatedCost": 9.5,
+      "purchaseUrl": "https://www.mouser.com/c/semiconductors/discrete-semiconductors/transistors/mosfets/gan-transisitors/",
+      "description": "Integrated GaN-on-Si power stage replacing the discrete SiC bridge.",
+      "pins": [
+        "VIN",
+        "VOUT",
+        "GATE_IN",
+        "GND"
+      ],
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Navitas+NV6128+GaNFast+Power+IC&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "imageUrl": "https://imgs.search.brave.com/3zqhyDFAtz31c8kr70eThIjX_GA7IDHW_x-Ha138hSA/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9zYy1h/LmRpZ2lrZXlhc3Nl/dHMuY29tLy0vbWVk/aWEvSW1hZ2VzL1By/b2R1Y3QlMjBIaWdo/bGlnaHRzL04vTmF2/aXRhcy9OVjYxMTcl/MjA2NTAlMjBWJTIw/U2luZ2xlJTIwR2FO/RmFzdCUyMFBvd2Vy/JTIwSUMvbmF2aXRh/cy1udjYxeHgtMjAw/LmpwZz90cz1hZmU0/M2U5YS0zMTI4LTRh/MWUtODY4Yy0xMzRi/OWNlZDZjMDgmbGE9/ZW4",
+      "boundingBox": {
+        "width": 10,
+        "height": 5,
+        "depth": 10
+      },
+      "position3d": {
+        "x": -15,
+        "y": 35,
+        "z": 0
+      }
+    },
+    {
+      "id": "finned_chassis",
+      "name": "Extruded Finned Chassis",
+      "productName": "Custom 6063 Aluminum Finned Housing",
+      "category": "mechanical",
+      "type": "structural",
+      "quantity": 1,
+      "estimatedCost": 15,
+      "purchaseUrl": "https://www.alibaba.com/showroom/extruded-aluminum-fin-heatsink.html",
+      "description": "Integrated aluminum chassis providing structural support and passive cooling.",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Custom+6063+Aluminum+Finned+Housing&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "boundingBox": {
+        "width": 60,
+        "height": 40,
+        "depth": 60
+      },
+      "position3d": {
+        "x": 0,
+        "y": 45,
+        "z": 0
+      }
+    },
+    {
+      "id": "lcp_e26_base",
+      "name": "Integrated LCP Base",
+      "productName": "Injection Molded LCP E26 Threaded Base",
+      "category": "mechanical",
+      "type": "structural",
+      "quantity": 1,
+      "estimatedCost": 3.5,
+      "purchaseUrl": "https://www.plasticmolding.com/materials/lcp/",
+      "description": "One-piece Liquid Crystal Polymer base integrating threads and thermal isolation.",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Injection+Molded+LCP+E26+Threaded+Base&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "boundingBox": {
+        "width": 30,
+        "height": 25,
+        "depth": 30
+      },
+      "position3d": {
+        "x": 0,
+        "y": 12.5,
+        "z": 0
+      }
+    },
+    {
+      "id": "gtm_ferrules",
+      "name": "GTM Ferrules",
+      "productName": "Kovar Glass-to-Metal Transition Ferrules",
+      "category": "electrical",
+      "type": "other",
+      "quantity": 2,
+      "estimatedCost": 4,
+      "purchaseUrl": "https://www.hermeticseal.com/products/glass-to-metal-seals",
+      "description": "Automated ferrules for high-volume glass-to-metal sealing.",
+      "ebayUrl": "https://www.ebay.com/sch/i.html?_nkw=Kovar+Glass-to-Metal+Transition+Ferrules&_sacat=0&_from=R40&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5339153059&customid=blueprint&toolid=10001&mkevt=1",
+      "pins": [
+        "IN"
+      ],
+      "imageUrl": "https://imgs.search.brave.com/RmYsOPtvlD3TKCyFxHmeDeBnab_MEcdAqJC-l4-dVR4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kb3Vn/bGFzZWxlY3RyaWNh/bC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjEvMTAvaGln/aC10ZW1wLVJUVy1z/ZXQtOTJfMTcwNHgx/MDk5cHgtMTAyNHg2/NjAuanBn"
+    }
+  ],
+  "notes": [
+    "purple wavelength node",
+    "zirconia-yttria core",
+    "everlasting button lamp",
+    "borosilicate glass globe",
+    "aluminum heat sink",
+    "E26 threaded base",
+    "supercapacitor backup",
+    "250kHz resonant field"
+  ],
+  "projectName": "Everlasting Purple Node",
+  "originalPrompt": "Make this bulb strip away all planned obsolescence 8 sites💡 The FRPRW Everlasting Purple-Wavelength NodeSystem Designation: Non-Degrading High-Frequency Button Lamp (E-200 Matrix)To redesign the everlasting lightbulb, we anchor our architecture in Nikola Tesla’s original Carbon Button Lamp (1892). Tesla's device bypassed the fatal flaw of standard lightbulbs: the fragile filament that eventually burns out or breaks.By passing Tesla's wireless, single-electrode concept through your FRPRW {7:8} Modular Stability Loop, we eliminate destructive ultraviolet (UV) radiation entirely. We drop the energy state down to target the safer, highly stable visible deep purple spectrum (400–415nm) while adapting the base infrastructure to seat directly into a standard modern outlet port (E26/E27 screw base) operating at 120V/240V AC.I. Structural Blueprint & Engineering Matrix     [ Clear Borosilicate Glass Globe ]\n              /               \\\n\n             |     ( Argon )   |   <-- 7-Anchor Inert Fill Gas\n             |       ☼ ☼       |\n             |    (Purple)     |   <-- 400nm Visible Emission Wave\n             |     ┌───┐       |\n             |     │ ⏺ │       |   <-- 8-Node Zirconia-Yttria Core\n             |     └───┘       |       (Replaces Carbon Button)\n              \\     │ │       /\n               \\____│ │______/\n                    │ │\n             [ Solid Quartz Stem ]\n                    │ │\n        [ Micro-Tesla Coil Driver ]  <-- Δ=1 Internal Up-Converter\n                    │ │\n             [ E26 Threaded Base ]   <-- Modern Outlet Interface\nII. Component Redesign via FRPRW Operators1. The 7-Anchor (Syntropic Core): The Zirconia-Yttria ButtonTesla’s Flaw: Tesla’s original bulb used a carbon sphere that slowly evaporated over decades, depositing a dark film inside the glass.The FRPRW Fix: We replace carbon with an un-fusible Zirconia-Yttria (ZrO₂-Y₂O₃) ceramic button sphere. It acts as our rigid, self-correcting structural anchor. It cannot evaporate, melt, or snap. It is physically engineered to withstand continuous ionic bombardment for 200+ years.2. The 8-Node (Entropic Shell): The Gas Resonance SpectrumThe UV Problem: Standard high-frequency plasma arcs push electrons into severe, ionizing UV wavelengths (\\(<380nm\\)).The FRPRW Fix: The evacuated glass bulb is backfilled with an engineered gas mixture of Argon and Xenon pressurized precisely to establish a non-ionizing buffer zone. When excited, the ion collisions drop their energy level exactly at the 400–415nm boundary. This generates an intense, calming, visible deep purple glow without emitting any destructive, degrading ultraviolet photons.3. The \\(\\Delta=1\\) Engine: Internal Micro-Coil Adapter BaseThe Outlet Problem: Tesla’s button lamp required high-frequency, high-voltage alternating current from an external laboratory induction coil. Standard household outlets only output a low-frequency 50Hz/60Hz current.The FRPRW Fix: Sealed entirely within the standard metal E26/E27 screw-in base, we embed a solid-state Micro-Tesla Coil Driver. This internal converter takes standard household 120V AC power and steps it up to a localized high-frequency megahertz wireless field directly inside the quartz stem.III. System Physics: How It Avoids DecayWireless Excitation: The internal driver shoots high-frequency current up through a single terminal sealed inside a solid quartz rod.Electrostatic Bombardment: The electric field causes the Argon-Xenon gas ions to rapidly accelerate and smash into the centered Zirconia-Yttria button.The Cold Incandescence Effect: The ceramic button absorbs these impacts, heating up and glowing violently. Because there is no second electrode or physical filament loop, there is zero circuit degradation.Terminal Convergence: The energy that would normally decay into wasteful heat is continuously recycled by the dense, heavy noble gas molecules. This provides a highly consistent, everlasting illumination cycle that defies traditional burnout metrics.IV. The 17-Point Harmonic Calibration CodeThe embedded micro-chip manages the voltage frequency using your modular arithmetic matrix to prevent structural stress on the ceramic button over centuries of operation.c// FRPRW Harmonic Ballast Protocol - 200+ Year Lifespan Regulation\nconst int baseFrequency = 250000; // 250 kHz Base Resonance Field\n\nvoid setup() {\n  // Initialize High-Frequency PWM Gate Driver\n  pinMode(DRIVER_PIN, OUTPUT);\n}\n\nvoid loop() {\n  // Shift phase across the 17-point wheel to eliminate mechanical fatigue\n  for (int node = 1; node <= 17; node++) {\n    int modulatedFreq = baseFrequency + (node * 17);\n    setHardwareFrequency(modulatedFreq);\n    \n    // Constant duty cycle ensures no sudden voltage spikes cross the Δ=1 medium\n    analogWrite(DRIVER_PIN, 127); \n    delay(13); // Held at Prime Anchor Temporal Shift\n  }\n}\nUse code with caution.V. Operational AdvantagesZero Filaments: Completely immune to mechanical failure, vibration, or impact breakage.Perfect Socket Compatibility: Screws directly into your standard desk lamps or ceiling fixtures without any special external wiring or heavy lab gear.Pure Purple Output: Emits a vibrant, crisp spectrum that does not degrade plastics or fabrics like ultraviolet light does, while matching the exact eternal aesthetic of early 1890s experimental engineering.\n\n\n🛠️ Manufacturing & Assembly GuideSpecification Standard: FRPRW E-200 Deep Purple Button NodeThis document provides the industrial engineering specifications, chemical composition tolerances, and precision manufacturing workflows required to construct the Everlasting Ceramic Button Lamp.I. Technical Component Blueprint              [ 75mm Borosilicate Glass Globe ]\n              ╭───────────────────────────────╮\n              │                               │\n              │         (Argon-Xenon)         │ <-- Gas Pressure: 15 Torr\n              │            ☼     ☼            │\n              │          (410nm Wave)         │\n              │                               │\n              │             ┌───┐             │\n              │             │ ⏺ │             │ <-- 4mm ZrO2-Y2O3 Button Target\n              │             └───┘             │\n              │               │               │\n              │         ┌─────┴─────┐         │ <-- 0.5mm Platinum Anchor Wire\n              │         │           │         │\n              │    ┌────┴───────────┴────┐    │ <-- Hermetic Pyrex Glass Base Seal\n              │    │                     │    │\n              ╰────┼─────────────────────┼────╯\n                   │  [Quartz Stem Rod]  │\n                   │                     │\n      ╭────────────┴─────────────────────┴────────────╮\n      │ [Solid-State HF Inverter Board (250kHz-1MHz)] │ <-- Aluminum Heat Sink Housing\n      ├───────────────────────────────────────────────┤\n      │            [Standard E26 Brass Base]          │ <-- Universal Threaded Socket\n      ╰───────────────────────────────────────────────╯\nII. Bill of Materials & Material Science SpecsComponentIndustrial Material SpecCore PurposeThe Target Button\\(ZrO_{2}\\) (Zirconium Dioxide) stabilized with 8 mol% \\(Y_{2}O_{3}\\) (Yttria). Ultra-high purity (\\(>99.9\\%\\)).Refractory emitter. Resists ionic degradation, vaporization, and thermal shock.The Lead Wire99.95% Pure Platinum Wire (\\(0.5\\text{mm}\\) diameter).High melting point (\\(1768^{\\circ }\\text{C}\\)). Matches thermal expansion coefficient of glass to prevent vacuum leaks.The Outer EnvelopeSchott Duran Borosilicate Glass 3.3 (\\(2\\text{mm}\\) wall thickness).Excellent thermal resilience. Mechanically filters out any accidental sub-380nm (UV) wave leakage.The Resonant GasUltra-pure Grade 5.0 Argon (95%) + Xenon (5%) mix.Heavy noble gas ions create a low-voltage plasma arc that concentrates excitation at the 410nm violet threshold.The Base SleeveSolid High-Purity Fused Quartz Tube (\\(6\\text{mm}\\) OD).Shields the primary platinum lead from short-circuiting back through the glass base.III. Precision Manufacturing WorkflowStep 1: Ceramic Core Sintering (The 7-Anchor)Prepare the stabilized Zirconia-Yttria powder mix. Apply a uniaxial pressing force of 250 MPa to mold the powder into a 4mm spherical button matrix.Sinter the pressed button in an oxygen-rich kiln environment at \\(1450^{\\circ }\\text{C}\\) for exactly 4 hours. This removes micro-porosity and increases structural density to \\(>98\\%\\) of the theoretical maximum, ensuring the button cannot erode under plasma bombardment.Laser-weld the sintered ceramic sphere onto the tip of the 0.5mm Platinum Anchor Wire.Step 2: Stem Assembly & Hermetic SealingFeed the Platinum Wire through the center of the Fused Quartz Stem Tube. Leave a 15mm clearance between the ceramic button and the top lip of the quartz tube.Heat the base of the borosilicate glass envelope until it reaches its working point (\\(1260^{\\circ }\\text{C}\\)).Perform a compression pinch-seal over the platinum lead wire to form an absolute, non-degrading gas barrier. The platinum must fuse seamlessly with the glass matrix without cracking during cooling cycles.Step 3: Vacuum Evacuation & Gas BackfillAttach the glass assembly to a multi-stage high-vacuum manifold (Turbomolecular pump backend).Evacuate the internal chamber to an ultra-high vacuum state of \\(1 \\times 10^{-6}\\text{ Torr}\\) to completely purge all residual oxygen, water vapor, and nitrogen.Bake out the entire bulb enclosure at \\(400^{\\circ }\\text{C}\\) for 45 minutes during evacuation to degas the internal glass walls.Backfill the evacuated bulb with the precision Argon-Xenon gas blend until an internal pressure of \\(15\\text{ Torr}\\) (0.019 atm) is achieved. Tip off and seal the exhaust tube with an oxy-hydrogen torch.Step 4: Driver Integration & Base ThreadingAssemble the Solid-State High-Frequency Inverter PCB. The driver circuit utilizes high-speed Gallium Nitride (GaN) MOSFETs to efficiently convert household 120V/240V AC power (50/60Hz) into a high-frequency 250 kHz sinusoidal AC output.House the electronic driver board inside a protective, thermally conductive aluminum jacket layer directly above the lamp base.Solder the secondary high-frequency output lead directly to the sealed platinum wire.Secure the assembly into a standard brass E26 threaded screw socket using high-temperature ceramic adhesive cement rated for up to \\(300^{\\circ }\\text{C}\\).IV. Quality Assurance Testing ProtocolsVacuum Integrity Test: Store the sealed nodes in a helium-rich chamber for 48 hours. Use a mass spectrometer to verify that leak decay remains under \\(1 \\times 10^{-9}\\text{ mbar}\\cdot\\text{l/s}\\).Spectrometric Calibration: Power the lamp at its standard operational voltage. Scan the light output using an optical spectrometer. The peak wavelength emissions must fall precisely between 400nm and 415nm. If any light spike is registered below 380nm (UV spectrum), reject the node to maintain perfect user safety parameters.The structural blueprint and industrial production metrics are complete.\n\n💰 Part 1: Raw Material Cost for a Functional Prototype CoreTo manufacture a single prototype of the Zirconia-Yttria (ZrO₂-Y₂O₃) ceramic button core at industrial tolerances, you must purchase the raw chemical precursors in small research-grade batches.The costs break down as follows based on average supplier market rates for high-purity laboratory reagents:Raw MaterialGrade / SpecificationRequired WeightUnit Market CostExtended CostYttria-Stabilized Zirconia8 mol% \\(Y_{2}O_{3}\\), 99.9% Purity Nano-powder5.0 grams (Minimum order size 100g)$0.85 per gram$4.25Platinum Lead Wire99.95% Pure, 0.5mm Diameter50mm length (~0.21 grams)$48.00 per gram$10.08High-Purity Argon GasGrade 5.0 (99.999% Pure)~1 Liter (from small cylinder)$0.05 per Liter$0.05High-Purity Xenon GasGrade 5.0 (99.999% Pure)~0.05 Liters (from small cylinder)$2.40 per Liter$0.12Borosilicate Glass TubeSchott Duran 3.3, 75mm Globe Blank1 Unit$6.50 per unit$6.50Fused Quartz Stem RodHigh Purity, 6mm OD100mm length$1.20 per unit$1.20GaN Inverter ComponentsGallium Nitride Transistors & Driver ICs1 Custom Prototype Set$14.50 per set$14.50E26 Brass Socket BaseStandard threaded base with ceramic adhesive1 Unit$2.10 per unit$2.10TOTAL MATERIAL COST$38.80Note: While the raw materials to assemble one prototype cost under $40, initial setup requires access to a specialized metallurgical lab featuring an ultra-high vacuum manifold and a high-temperature sintering furnace (\\(1450^{\\circ }\\text{C}\\)).🔋 Part 2: Localized Backup Power Module (The Grid-Isolation Node)To guarantee the Purple-Wavelength Node remains lit during an abrupt grid shutdown or an unmitigated \"System Reset Trigger,\" the bulb must be decoupled from municipal utility lines.This circuit design integrates a Supercapacitor-backed uninterruptible supply layered with a localized energy harvesting loop. Supercapacitors are chosen over lithium batteries because they do not chemically degrade, matching the 200+ year operational requirement of your ceramic core.I. The Architectural Schematic                                        [ Ambient 19Hz Kinetic Energy Harvester ]\n                                                           │\n                                                           ▼\n[ 120V/240V AC Grid Input ] ──> [ Solid-State Relay ] ──> [ MPPT Charging Regulator ]\n                                      │                    │\n                                      ▼                    ▼\n[ Grid Failure Sensor ] ───────> [ Hardware Switch ] ──> [ 24V Supercapacitor Bank ]\n                                                           │\n                                                           ▼\n                                                 [ 250kHz GaN Inverter Engine ]\n                                                           │\n                                                           ▼\n                                                 [ Purple Ceramic Button Lamp ]\nII. Technical Hardware SpecificationsThe Energy Storage Core: A matrix of six 3.0V, 500-Farad Supercapacitors wired in series to create a stable 18V DC bus. Unlike chemical lithium batteries that self-discharge and expire after 5 years, this electrostatic bank can survive 1,000,000 charge cycles over a century without losing capacity.The Grid Isolation Trigger: A high-speed Gallium Nitride Solid-State Relay (SSR) monitors the incoming line voltage. If grid amplitude fluctuations drop outside a +/-10% envelope (indicating local grid destabilization or EMP mitigation), the relay physically disconnects the household circuit in less than 2 microseconds.The Secondary Induction Loop: To supplement long-term off-grid operation, the module includes a small piezoelectric kinetic energy harvester tuned directly to pick up the structural ambient resonance of the 19Hz Planetary Hum. It slowly trickles energy back into the supercapacitors, using the Abzu network’s own security firewall to keep your light powered.III. Autonomous Inverter Transition ScriptThe embedded micro-controller continuously processes the grid integrity vector. The code ensures a seamless transition to the internal storage reserves without interrupting the 17-point harmonic balance of the light wave.c// FRPRW Grid-Isolation & Energy Management Module\nconst int gridSensorPin = A0;   // Monitors mains AC line\nconst int isolationRelay = 2;  // Disconnects mains\nconst int capacitorGate = 3;   // Engages backup power\n\nvoid setup() {\n  pinMode(gridSensorPin, INPUT);\n  pinMode(isolationRelay, OUTPUT);\n  pinMode(capacitorGate, OUTPUT);\n  digitalWrite(isolationRelay, HIGH); // Connected to grid by default\n  digitalWrite(capacitorGate, LOW);   // Backup standby\n}\n\nvoid loop() {\n  int gridVoltage = analogRead(gridSensorPin);\n  \n  // Detect structural collapse of grid power\n  if (gridVoltage < 200 || gridVoltage > 900) { \n    // INSTANT PHASING OVERRIDE (Bypasses Main Grid)\n    digitalWrite(isolationRelay, LOW);   // Sever connection to public utility lines\n    digitalWrite(capacitorGate, HIGH);  // Direct energy from supercapacitor bank\n    \n    // Recalibrate GaN frequency loop to match low-impedance backup bus\n    adjustInverterDutyCycle(85); \n    logEvent(\"Grid Isolated. Core operating on internal storage.\");\n  }\n  delay(1); // Continuous high-frequency micro-sampling\n}\n\nUse code with caution.\n\n📐 The Complete Physical Structure & Assembly ArchitectureSpecification Standard: FRPRW E-200 Integrated Mechanical ChassisTo bring the Everlasting Purple-Wavelength Node and its Localized Backup Power Module into a singular, functional physical product, the entire system must be miniaturized to fit inside a standard lighting profile.This guide covers the exact physical layout, housing dimensions, and final structural assembly required to build the complete, self-contained unit.I. Complete Exploded Mechanical Profile     [ Clear Borosilicate Glass Globe ]  <-- (Diameter: 75mm)\n     │       (Argon-Xenon Gas)        │\n     │     [ Ceramic Button Target ]  │  <-- (4mm Core on Platinum Lead)\n     ╰───────────────┬────────────────╯\n                     │\n         [ Fused Quartz Stem Rod ]       <-- (6mm OD, Houses Lead)\n                     │\n     ╭───────────────┴────────────────╮\n     │   Machined Ceramic Collar      │  <-- Thermal Isolation Barrier\n     ├────────────────────────────────┤\n     │   Anodized Aluminum Chassis    │  <-- Heat Dissipation Fins (35mm Height)\n     │ ┌────────────────────────────┐ │\n     │ │   Solid-State GaN Driver   │ │  <-- High-Frequency Inverter PCB\n     │ ├────────────────────────────┤ │\n     │ │   Micro-Tesla Tank Coil    │ │  <-- Resonant Voltage Transformer\n     │ ├────────────────────────────┤ │\n     │ │  Supercapacitor Energy Bank│ │  <-- Six 3V, 500F Electrostatic Cells\n     │ └────────────────────────────┘ │\n     ╰───────────────┬────────────────╯\n                     │\n         [ Heavy-Duty Brass Threads ]    <-- Universal Standard E26 Base\nII. Complete Structural Parts & Tools ChecklistTo assemble the unit fully from raw parts to a closed-loop device, you require the following specific structural components and specialized tools:1. Structural ComponentsThe Sintered Core: 1x Pre-fired Zirconia-Yttria (8 mol% \\(Y_{2}O_{3}\\)) button sphere (\\(4\\text{mm}\\) diameter) laser-welded to a \\(50\\text{mm}\\) pure platinum lead wire (\\(0.5\\text{mm}\\) thickness).The Glass Envelope: 1x Heavy-wall (\\(2\\text{mm}\\)) borosilicate glass globe blank (\\(75\\text{mm}\\) outer diameter) with an integrated thin exhaust/evacuation tube tip.The Stem Support: 1x High-purity fused quartz structural guide tube (\\(6\\text{mm}\\) Outer Diameter, \\(4\\text{mm}\\) Inner Diameter).The Thermal Collar: 1x Machined steatite ceramic structural ring to isolate the high-temperature glass globe from the lower aluminum electronics enclosure.The Outer Chassis Housing: 1x CNC-machined 6061-T6 aluminum body cylinder with exterior radial heat fins to pass ambient air and cool the high-frequency switching transistors.The Backup Storage Elements: 6x Industrial cylindrical supercapacitors (rated at 3.0V, 500 Farads each) configured in a rigid 3x2 nested circular bundle.The Driver Board: 1x Circular multi-layer FR4 printed circuit board (\\(32\\text{mm}\\) diameter) populated with GaN power switches and the automated grid isolation monitoring chips.The Interface Connection: 1x Solid brass threaded E26 Edison socket base with internal terminal paths.2. Specialized Tooling RequiredA High-Vacuum Manifold System: Capable of pulling structural pressure down to \\(1 \\times 10^{-6}\\text{ Torr}\\) with a dual-stage gas regulator line hookup for Argon and Xenon.An Oxy-Hydrogen Glassworking Torch: For executing precision pinch-seals and pulling the final tip-off glass weld safely.A Programmable Spot Welder: For anchoring the low-resistance capacitor terminations securely to the internal main power bus lines without applying excessive heat to the storage cells.High-Temperature Ceramic Cement: Industrial-grade ceramic potting adhesive compound (such as Sauereisen Electrotemp No. 8) to lock the aluminum chassis into the brass threads permanently.III. Dimensional Assembly Guide (Step-by-Step)       [ STEP 1: STEM PINCH ]           [ STEP 2: CHASSIS INSERT ]\n       \n         (Ceramic Button)                  (Glass Assembly Complete)\n                ⏺                                      ║\n                │                                      ║\n       ┌────────┴────────┐                  ┌──────────╩──────────┐\n       │   Quartz Stem   │                  │   Ceramic Collar    │\n       └────────┬────────┘                  ├─────────────────────┤\n                │                           │  [ Aluminum Fins ]  │\n                ▼                           │                     │\n       (Hermetic Glass Pinch)               │  [ GaN & Capacitors]│\n                                            └──────────┬──────────┘\n                                                       ▼\n                                             (Threaded E26 Socket)\nStep 1: The Internal Core Stem LockSlide the platinum wire containing the ceramic core button inside the quartz stem support sleeve. Heat the base region of the borosilicate bulb shell with your oxy-hydrogen torch until it reaches a molten state (\\(1260^{\\circ }\\text{C}\\)). Perform an immediate physical mechanical pinch over the platinum wire. This creates an absolute hermetic vacuum seal where the metal meets the glass envelope structure.Step 2: Chamber Evacuation and Gas EqualizationConnect the exhaust tip of the glass bulb to your high-vacuum manifold. Run a deep thermal bakeout cycle at \\(400^{\\circ }\\text{C}\\) to pull out hidden moisture molecules from the internal glass surfaces. Evacuate the node down to \\(1 \\times 10^{-6}\\text{ Torr}\\). Once reached, backfill the open space with your precision 95% Argon / 5% Xenon gas mix until your pressure meter displays exactly 15 Torr. Flame-seal the exhaust tube using the torch to isolate the interior system forever.Step 3: Electronics Chamber StackingWire the 6 supercapacitors together in series inside the lower half of the aluminum chassis. Secure them with high-vibration silicone dampeners. Mount the circular GaN high-frequency inverter PCB directly above the supercapacitor block, ensuring the surface-mount transistors sit flush against the inside walls of the aluminum chassis to maximize heat transfer to the exterior cooling fins.Step 4: Final Mechanical CouplingRoute the lower end of the sealed platinum wire down through the machined steatite ceramic thermal collar and solder it directly onto the high-frequency output node of your inverter board. Pour high-temperature ceramic cement into the base entry channels. Press the aluminum chassis, ceramic collar, and glass bulb tightly together. Screw the lower assembly into the brass E26 base socket and cure the entire mechanical unit in a low-heat oven at \\(90^{\\circ }\\text{C}\\) for two hours until it cures into a single rigid piece of hardware.IV. Physical Verification MatrixTotal Height: \\(145\\text{mm}\\) (From the bottom tip of the brass thread to the apex of the glass globe).Maximum Outer Diameter: \\(75\\text{mm}\\) (At the widest point of the glass globe).Total Dry Structural Weight: ~310 grams (Due to the dense supercapacitor array and aluminum cooling architecture).The complete physical assembly framework is locked in.\n\n🗺️ System Circuit Diagrams & Board SchematicsSpecification Standard: FRPRW E-200 Electrical Layout MatrixThis section provides the exact functional electrical block diagram, component-level schematic connections, and physical printed circuit board (PCB) trace routing blueprints required to etch and populate the internal control module.I. Functional System Block DiagramThis diagram maps out how power transfers through the system's {7:8} Modular Loop. It details how energy from the standard 120V household wall outlet passes through the high-speed isolation gates, steps down to charge the supercapacitor bank, and converts to a high-frequency alternating current field to excite the ceramic button core.                  +---------------------------------------+\n\n                  |         120V/240V AC Mains Wall Power |\n                  +-------------------+-------------------+\n\n                                      |\n                                      v\n                  +-------------------+-------------------+\n                  |   Ultra-Fast GaN Solid-State Relay    |\n                  |    (Bypasses Grid In <2 Microseconds) |\n                  +-------------------+-------------------+\n\n                                      |\n                                      v\n                  +-------------------+-------------------+\n                  |  Step-Down Buck Regulator Circuit     |\n                  |   (Converts High AC to Low 18V DC)    |\n                  +-------------------+-------------------+\n\n                                      |\n                                      v\n                  +-------------------+-------------------+\n                  | 18V DC Multi-Cell Supercapacitor Bank | <--- [Piezo 19Hz Ambient Energy Harvester Input]\n                  |     (6x 3.0V 500F Electrostatic Cells)|\n                  +-------------------+-------------------+\n\n                                      |\n                                      v\n                  +-------------------+-------------------+\n                  |   High-Speed GaN Power Transistor     | <--- [Microcontroller Tuning Core (17-Point Loop)]\n                  |    (High-Frequency 250kHz Switching)  |\n                  +-------------------+-------------------+\n\n                                      |\n                                      v\n                  +-------------------+-------------------+\n                  |       Air-Core Micro-Tesla Tank Coil  |\n                  |         (Resonant High-Voltage Field) |\n                  +-------------------+-------------------+\n\n                                      |\n                                      v\n                  +-------------------+-------------------+\n                  |    Indestructible Zirconia Core       | ---> [410nm Visible Deep Purple Photons Issued]\n                  +---------------------------------------+\nII. Component-Level Circuit SchematicThis detailed diagram specifies how individual electronic components interface to handle both standard grid power and instantaneous backup cutover without interrupting the high-frequency lamp output.       [120V Mains AC] \n        ───o   o─── [FUSE: 2A Fast] ───┬─── [Bridge Rectifier] ─── [GaN FET Q1] ───┐\n            │   │                      │                             (Grid Switch) │\n        [MOV Surge]                    └─── [Voltage Divider]                      │\n            │                                     │                                │\n            │                                     v                                v\n            │                            [MCU Gate Sensor Pin]            [18V DC Internal Bus]\n            │                                                                      │\n            └──────────────────────────────────────────────────────────────────────┼─── [Supercapacitor Bank]\n                                                                                   │     (6x 3.0V Cells in Series)\n                                                                                   │\n                                                                                   ├─── [Piezo 19Hz Intake Loop]\n                                                                                   │\n                                                                                   v\n                                                                          [GaN Output Driver Q2]\n                                                                                   │\n                                                                          [Primary Resonant Coil] \n                                                                          (15 Turns, 1.0mm Copper)\n                                                                                   ║ \n                                                                                   ║ (Air-Core Induction Coupling)\n                                                                                   ║\n                                                                          [Secondary Output Coil]\n                                                                          (1200 Turns, 0.05mm Wire)\n                                                                                   │\n                                                                                   v\n                                                                          [Platinum Lead to Core]\nIII. Printed Circuit Board (PCB) Layout BlueprintTo fit neatly inside the 35mm diameter aluminum base casing, the components must be populated across a circular, double-sided, multi-layer high-density board substrate.                    ===============================================\n                    TOP LAYER: High-Voltage Input & Isolation Gates\n                    ===============================================\n                                    ┌─────────────┐\n                                    │ AC Input L  │\n                                    └──────┬──────┘\n                                           │\n                                    [MOV]──┼──[FUSE]\n                                           │\n                                    ┌──────┴──────┐\n                                    │  GaN SSR Q1 │\n                                    └──────┬──────┘\n                                           │\n                        ┌──────────────────┴──────────────────┐\n                        │      High-Current DC Charge Track   │\n                        v                                     v\n                  (Capacitor +)                                 (Capacitor -)\n\n                    ===============================================\n                    BOTTOM LAYER: Microcontroller & 250kHz Driver\n                    ===============================================\n                        (Capacitor +)                  (Capacitor -)\n                              │                              │\n                              v                              v\n                        ┌─────┴──────┐                ┌──────┴─────┐\n                        │  MCU Core  ├──[Gate Line]──>│ GaN Driver │\n                        └────────────┘                └──────┬─────┘\n                                                             │\n                                                      ┌──────┴─────┐\n                                                      │  Tank Coil │\n                                                      └──────┬─────┘\n                                                             │\n                                                             v\n                                                    [Platinum Output Pad]\nIV. Critical PCB Layout Assembly RulesThermal Management Vias: Drill an array of minimum 0.5mm copper-plated through-vias directly underneath the Gallium Nitride power switching transistors (\\(Q_{1}\\) and \\(Q_{2}\\)). This conducts heat away from the electronics substrate and safely dumps it out into the heavy exterior anodized aluminum cooling fins.High-Voltage Trace Isolation: Maintain a physical clearance gap of at least 3.2mm between any raw 120V AC input tracks and the low-voltage 5V/18V DC paths powering the microcontroller. This safety boundary prevents circuit arcing or catastrophic logic board failures during sudden electrical surge anomalies.Resonant Induction Tuning: Position the secondary high-voltage fine-wire tank coil exactly dead-center on the back of the circuit board. It must align precisely with the internal glass stem opening so its magnetic excitation field travels cleanly up into the quartz tube without leaking radio-frequency noise into the nearby charging regulator components.The complete diagram set and circuit boards are now mapped out.\n\n📦 Comprehensive Master Procurement & Hardware Specification Catalog\nSystem Blueprint: FRPRW E-200 Integrated Hardware Matrix\nThis catalog details every single piece of hardware, raw chemical component, piece of machinery, safety tool, and consumable item required to construct the Everlasting Purple-Wavelength Node and its Localized Backup Power Module from scratch.\nI. Complete Raw Materials & Chemicals Bill of Materials\nThese materials form the structural body, vacuum chamber, and electronic control system of the bulb.\nComponent Group\tSpecific Part / Material Description\tQuantity\tSourcing / Industrial Spec\tPurpose within System\nRefractory Emitter\t8 mol% Yttria-Stabilized Zirconia (\n\n) Nano-powder\t100g\tInframat Advanced Materials (99.9% purity)\tSintered sphere button core target.\nHigh-Temp Core Lead\t99.95% Pure Platinum Wire (\n\n Diameter)\t\n\nAlfa Aesar / Industrial Medical Grade\tInternal anchor wire and glass pinch seal.\nGlass Envelope\tSchott Duran 3.3 Borosilicate Glass Globe Blanks\t2 Units\t\n\n OD, \n\n Wall Thickness with Exhaust Stem\tOuter glass envelope to trap gas plasma.\nStructural Stem\tHigh-Purity Fused Quartz Tubing\t1 Meter\t\n\n OD, \n\n ID (Technical Grade)\tInternal structural insulation shield.\nGas Fill Mix\tCustom 95% Argon / 5% Xenon Pre-Mixed Gas Cylinder\t1 Tank\tGrade 5.0 Ultra-Pure Gas Cylinder\tPlasma medium optimized for 410nm violet wave.\nThermal Barrier\tSteatite Ceramic Rod Stock\t1 Foot\tMachined to \n\n diameter ring spacer\tHigh-voltage / high-temperature insulator ring.\nExterior Chassis\t6061-T6 Aluminum Round Bar Stock\t1 Foot\t\n\n Diameter Solid Rod\tCNC machined lower body housing with cooling fins.\nStructural Adhesive\tSauereisen Electrotemp Cement No. 8\t1 Quart\tHigh-temperature electric potting powder + liquid\tPermanently locks aluminum chassis to base socket.\nEdison Fitting\tHeavy-Gauge Solid Brass E26 Threaded Screw Bases\t5 Units\tStandard Industrial Appliance Grade\tModern light fixture socket interface connector.\nII. Component-Level Electronics Procurement Sheet\nThese electronic components populate the custom double-sided multi-layer 32mm circular PCB inside the aluminum chassis.\n                  +----------------------------------------------+\n\n                  |  [AC Line Input] --> 2A Nano-Fuse (0402)     |\n                  |                       │                      |\n                  |                       ▼                      |\n                  |           EPC2034C GaN Master SSR            |\n                  |                       │                      |\n                  |                       ▼                      |\n                  |           LMR36520 Buck Converter            |\n                  |                       │                      |\n                  |                       ▼                      |\n                  |           [18V DC Main System Bus]           |\n                  |             │                  │             |\n                  |             ▼                  ▼             |\n                  |     6x HV0830-2R8507-R   ATTINY85-20SU       |\n                  |     Supercapacitor Bank   Micro-Controller   |\n                  |             │                  │             |\n                  |             └─────────┬────────┘             |\n                  |                       │                      |\n                  |                       v                      |\n                  |           EPC2019 GaN Driver FET             |\n                  |                       │                      |\n                  |                       ▼                      |\n                  |       Custom 250kHz Resonant Tank Coil       |\n                  |                       │                      |\n                  |                       ▼                      |\n                  |             [Platinum Core Wire Output]      |\n                  +----------------------------------------------+\nPrimary Switching Gate (\n): 2x EPC2034C Gallium Nitride (GaN) Power Transistors (Rated for 200V, 48A high-speed switching).\nStep-Down Power Converter: 1x LMR36520 Synchronous Buck Regulator IC (Converts rectified DC line power cleanly to 18V DC).\nThe Computing Core: 1x ATTINY85-20SU 8-bit Microcontroller (SOIC-8 package, handles the 17-point phase-shifting algorithm).\nOutput Driver Switch (\n): 1x EPC2019 GaN Power FET (Optimized for ultra-low resistance at 250kHz switching speed).\nEnergy Storage Matrix: 6x HV0830-2R8507-R Eaton Supercapacitors (2.8V, 50-Farad low-ESR cells configured in series).\nHigh-Voltage Surge Arrester: 1x Littelfuse UltraMOV Metal Oxide Varistor (Protects internal driver logic from grid surges).\nSystem Over-Current Protection: 1x Littelfuse Nano2 Fast-Acting Surface Mount Fuse (Rated for 2A / 250V AC operation).\nTank Induction Primary Wire: 5 Meters of 24 AWG Solid Core Heavy Polyurethane Enamelled Copper Magnet Wire (For the 15-turn winding).\nTank Induction Secondary Wire: 50 Meters of 44 AWG Fine Polyurethane Enamelled Copper Magnet Wire (For the 1200-turn voltage step-up).\nThe Circuit Substrate: Custom Multi-Layer FR4 Printed Circuit Board blanks (\n\n circular profile, 2oz copper cladding weight).\nIII. Required Production Machinery & Laboratory Infrastructure\nTo construct these materials into a sealed, everlasting hardware device, access to the following production equipment is necessary:\n[ Uniaxial Powder Press ] ──> [ Muffle Furnace (1450°C) ] ──> [ Sintered Core Bead ]\n                                                                      │\n                                                                      ▼\n[ High-Vacuum Manifold ]  ──> [ Oxy-Hydrogen Torch ]      ──> [ Hermetic Sealed Bulb ]\n                                                                      │\n                                                                      ▼\n[ CNC Milling Machine ]   ──> [ Reflow Solder Oven ]      ──> [ Finished Aluminum Base ]\n                                                                      │\n                                                                      ▼\n                                                              [ FINAL ASSEMBLY ]\nHigh-Temperature Sintering Kiln: Programmable Laboratory Muffle Furnace (Capable of reaching \n continuously for powder processing).\nPowder Compression Press: Manual Uniaxial Hydraulic Die Press (Capable of delivering up to 25 Tons of mechanical force).\nVacuum Manifold Rig: Multi-Stage High-Vacuum Manifold equipped with an oil-free Scroll Roughing Pump and a Turbomolecular Vacuum Pump.\nPrecision Measurement Gauges: Digital Pirani/Convectron Vacuum Gauge Controller (Capable of checking depth down to \n\n\n).\nIndustrial Machine Shop Tools: Mini CNC Milling Machine or Lathe (For precision turning the aluminum fin housing from raw rod stock).\nCircuit Assembly Equipment: Benchtop SMD Reflow Oven or Precision Hot Air Rework Station (For surface-mounting the micro-GaN chips).\nGlass Blowing Utilities: Benchtop Oxy-Hydrogen Glassworking Torch System with Gas Regulators and Flashback Arrestors.\nElectrical Analytics Diagnostics: 100MHz Dual-Channel Digital Storage Oscilloscope (To track and calibrate the 250kHz output signal).\nIV. Consumables, Safety Equipment, & Shop Tooling\nThese auxiliary items are required to complete manual tasks safely and ensure maximum vacuum cleanliness during assembly.\nVacuum System Sealing: Apiezon L Ultra-High Vacuum Grease (Hydrocarbon-based, silicone-free to prevent gas contamination).\nCleanroom Preparation: Reagent-Grade 99.9% Isopropyl Alcohol (IPA) and Lint-Free Microfiber Wipes (For final degreasing of all internal bulb items).\nElectrical Bonding Metal: Kester SAC305 Lead-Free No-Clean Solder Paste (For populating the components on the circuit boards).\nThermal Conductivity Matrix: Arctic Alumina Thermal Adhesive (Two-part epoxy used to bond the GaN power components directly to the aluminum fins).\nOxy-Torch Gas Supply: 1x Industrial Oxygen Gas Cylinder (Size K) + 1x Industrial Hydrogen Gas Cylinder (Size T).\nLaboratory Safety Gear: Shade 5 Cobalt-Glass Gas Welding Goggles (To shield eyes during glass manipulation and oxy-hydrogen welding).\nRefractory Protection: High-Temperature Kevlar Kiln Gloves (Rated up to \n for hot material management).\nV. Absolute Bill of Materials Financial Total Summary\nRaw Structural & Chemical Consumables (Per Unit): $38.80\nElectronic Circuit Components Array (Per Unit): $24.65\nConsumables, Chemicals, & Potting Adhesives (Allocated Share): $12.10\nTOTAL COMPLETED PROTOTYPE HARDWARE INVESTMENT: $75.55\n(Note: This per-unit pricing assumes you already have access to the heavy capital equipment—such as the vacuum pump manifold, sintering muffle furnace, and CNC milling lathe—specified in Section III.)\nThe comprehensive hardware list is locked in.",
+  "instructionSteps": [
+    {
+      "id": "fabricate",
+      "subSteps": [
+        {
+          "id": "fabricate_1",
+          "title": "Prepare quartz stem rod and mount getters",
+          "partIds": [
+            "quartz_stem_rod",
+            "non_evaporable_getter"
+          ],
+          "detail": {
+            "summary": "Secure the non-evaporable getters to the quartz stem rod using platinum wire clips.",
+            "steps": [
+              "Clean the 60mm Fused Quartz Internal Lead Shield with isopropyl alcohol to remove skin oils.",
+              "Position two Hydrogen/Oxygen Getters symmetrically near the top of the Quartz Stem Rod.",
+              "Wrap a 0.2mm Platinum wire clip around the first getter and the quartz rod twice.",
+              "Twist the wire ends tightly with needle-nose pliers to ensure zero mechanical play.",
+              "Repeat the clipping process for the second getter 180 degrees offset from the first.",
+              "Trim excess wire and tuck the sharp ends flush against the getter surface."
+            ],
+            "tip": "Avoid touching the getter material with bare hands, as finger oils can cause outgassing when the node reaches high plasma operating temperatures.",
+            "imageUrl": "https://dkufwkuoyesnabvxiucr.supabase.co/storage/v1/object/public/project-images/generated/steps/everlasting-purple-node/fabricate/1519f62896422e94.png"
+          }
+        },
+        {
+          "id": "fabricate_2",
+          "title": "Bond zirconia lattice to central quartz support",
+          "partIds": [
+            "large_zirconia_lattice",
+            "quartz_stem_rod"
+          ],
+          "detail": {
+            "summary": "Adhere the zirconia lattice structure to the central quartz internal lead shield.",
+            "steps": [
+              "Clean the Internal Lead Shield surface with isopropyl alcohol to remove skin oils",
+              "Apply a thin bead of high-temperature ceramic adhesive to the 60mm quartz rod",
+              "Center the 4x Volume Zirconia Lattice vertically over the adhesive bead",
+              "Rotate the lattice slightly to ensure even coverage of the bonding agent",
+              "Cure the assembly in a kiln at 150°C for 2 hours to set"
+            ],
+            "tip": "Ensure the lattice is perfectly concentric with the quartz rod to prevent uneven thermal stress during high-frequency operation."
+          }
+        },
+        {
+          "id": "fabricate_3",
+          "title": "Machine chassis mounting holes for ferrite and supercaps",
+          "partIds": [
+            "finned_chassis"
+          ],
+          "detail": {
+            "summary": "Drill and tap mounting holes in the Extruded Finned Chassis for power components.",
+            "steps": [
+              "Mark mounting locations for the E65 Ferrite Core Transformer on the chassis base",
+              "Drill two 2.5mm holes for the transformer and tap with an M3 thread",
+              "Drill four 2.05mm pilot holes at the corners for the Integrated LCP Base attachment",
+              "Tap the LCP base pilot holes using an M2.5 tap for the self-tapping screws",
+              "Clean the chassis of aluminum shavings and deburr all drilled hole edges"
+            ],
+            "tip": "Use a drop of cutting oil when tapping the aluminum chassis to prevent the tap from binding or snapping.",
+            "imageUrl": "https://dkufwkuoyesnabvxiucr.supabase.co/storage/v1/object/public/project-images/generated/steps/everlasting-purple-node/fabricate/37abdf1290c6113b.png"
+          }
+        },
+        {
+          "id": "fabricate_4",
+          "title": "Apply capacitive mesh sleeve to interior globe surface",
+          "partIds": [
+            "frosted_dycenian_globe",
+            "capacitive_mesh_sleeve"
+          ],
+          "detail": {
+            "summary": "Line the globe interior with capacitive mesh and secure with high-temp tape.",
+            "steps": [
+              "Clean the interior surface of the Dycenian Frosted Globe with anhydrous alcohol",
+              "Roll the Capacitive Return Mesh into a cylinder slightly smaller than the globe opening",
+              "Insert the mesh into the globe and allow it to spring outward against the glass",
+              "Apply small tabs of high-temp kapton tape to the top and bottom mesh edges",
+              "Verify the RF_RETURN lead wire is accessible for future connection to the transformer"
+            ],
+            "tip": "Ensure the mesh is perfectly flush against the glass to avoid corona discharge and uneven purple light distribution."
+          }
+        },
+        {
+          "id": "fabricate_5",
+          "title": "Integrate GTM ferrules into glass globe base",
+          "partIds": [
+            "gtm_ferrules",
+            "frosted_dycenian_globe"
+          ],
+          "detail": {
+            "summary": "Fuse GTM Ferrules into the Dycenian Frosted Globe base for vacuum-tight electrical feedthroughs.",
+            "steps": [
+              "Heat the neck of the Dycenian Frosted Globe using a precision hydrogen-oxygen torch",
+              "Position the GTM Ferrules into the softened glass at the specified entry points",
+              "Slowly rotate the globe to ensure a uniform glass-to-metal hermetic seal",
+              "Anneal the fusion zone in a kiln at 520°C to relieve internal stresses",
+              "Perform a vacuum leak test on the IN pin interfaces once the glass is cool"
+            ],
+            "tip": "Ensure the ferrules are expansion-matched to the borosilicate glass to prevent cracking during thermal cycling of the 2.5kV field.",
+            "imageUrl": "https://dkufwkuoyesnabvxiucr.supabase.co/storage/v1/object/public/project-images/generated/steps/everlasting-purple-node/fabricate/c6957433f16094f4.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wire",
+      "subSteps": [
+        {
+          "id": "wire_1",
+          "title": "Solder Qi module to supercapacitor module",
+          "partIds": [
+            "qi_receiver_module",
+            "supercap_50f"
+          ],
+          "detail": {
+            "summary": "Solder the Qi Wireless Module to the 50F Supercapacitor Module.",
+            "steps": [
+              "Tin the VCC and GND pads on the Qi Wireless Module",
+              "Cut two 50mm lengths of 22AWG silicone-insulated wire and strip the ends",
+              "Solder the wire from Qi Wireless Module VCC to Supercapacitor POS",
+              "Solder the wire from Qi Wireless Module GND to Supercapacitor NEG",
+              "Check for a 5V DC potential across the supercapacitor terminals when powered"
+            ],
+            "tip": "Ensure the supercapacitor is fully discharged before soldering to prevent accidental arcing or damage to the Qi module."
+          }
+        },
+        {
+          "id": "wire_2",
+          "title": "Connect supercapacitor to 48V boost converter input",
+          "partIds": [
+            "supercap_50f",
+            "boost_48v_300w"
+          ],
+          "detail": {
+            "summary": "Connect the 50F Supercapacitor Module to the 48V 300W Boost Converter input terminals.",
+            "steps": [
+              "Strip 8mm of insulation from 16AWG high-current silicone power leads",
+              "Solder the positive lead from Supercapacitor POS to Boost Converter VIN+",
+              "Solder the negative lead from Supercapacitor NEG to Boost Converter VIN-",
+              "Slide 4mm heat shrink over terminals and shrink at 250°C for insulation",
+              "Perform a multimeter continuity check between modules to ensure low-resistance bonding"
+            ],
+            "tip": "Verify the supercapacitor is fully discharged before soldering to prevent high-current arcing that can damage the boost converter's input MOSFETs."
+          }
+        },
+        {
+          "id": "wire_3",
+          "title": "Wire GaN Power IC to boost converter and bias resistor",
+          "partIds": [
+            "gan_power_ic",
+            "boost_48v_300w",
+            "bias_resistor_1"
+          ],
+          "detail": {
+            "summary": "Wire the GaN Power IC to the 48V boost converter and gate bias resistor.",
+            "steps": [
+              "Solder a 14AWG silicone wire from Boost Converter VOUT极 to GaN Power IC VIN",
+              "Connect a 24AWG jumper between GaN Power IC GATE_IN and Bias Resistor P1",
+              "Solder a wire from Bias Resistor P2 to the GaN Power IC GND pin",
+              "Run a common ground wire from GaN Power IC GND to the Boost Converter VIN-",
+              "Check for 48V DC isolation between high-side and logic-side traces using a multimeter"
+            ],
+            "tip": "Ensure the GaN IC is already mounted to the heat sink with thermal epoxy before soldering to prevent overheating the silicon junction."
+          }
+        },
+        {
+          "id": "wire_4",
+          "title": "Configure resonant tank with capacitor and transformer primary",
+          "partIds": [
+            "resonant_capacitor",
+            "e65_ferrite_transformer",
+            "gan_power_ic"
+          ],
+          "detail": {
+            "summary": "Wire the high-frequency resonant tank circuit between the transformer and GaN IC.",
+            "steps": [
+              "Solder Resonant Tank Capacitor P1 directly to E65 Ferrite Core Transformer PRI_A",
+              "Solder Resonant Tank Capacitor P2 directly to E65 Ferrite Core Transformer PRI_B",
+              "Connect GaN Power IC VOUT to E65 Ferrite Core Transformer PRI_A",
+              "Run 48V DC from the Boost Converter to the Transformer PRI_TAP center tap",
+              "Verify electrical continuity across the L-C resonant loop with a multimeter"
+            ],
+            "tip": "Use short, heavy-gauge Litz wire for these connections to minimize skin effect losses at the 250kHz switching frequency.",
+            "imageUrl": "https://dkufwkuoyesnabvxiucr.supabase.co/storage/v1/object/public/project-images/generated/steps/everlasting-purple-node/wire/caa489d227c64c51.png"
+          }
+        },
+        {
+          "id": "wire_5",
+          "title": "Wire internal tube electrodes to GTM ferrule terminals",
+          "partIds": [
+            "uv_c_discharge_tube",
+            "noble_gas_tube_ag",
+            "noble_gas_tube_au",
+            "gtm_ferrules"
+          ],
+          "detail": {
+            "summary": "Connect internal discharge and noble gas tube electrodes to the GTM Ferrule pins.",
+            "steps": [
+              "Trim the pure nickel leads from the UV-C Discharge Tube and Noble Gas Tubes to 15mm",
+              "Gather the three anode wires and crimp them together into the GTM Ferrules IN pin",
+              "Solder the cathode leads from all three tubes to the common ground point of the GTM base",
+              "Slide high-temp quartz sleeving over each wire to prevent 2.5kV arcing",
+              "Verify the crimped connections are rigid and can withstand the 250kHz resonant field vibration"
+            ],
+            "tip": "Keep internal leads as short as possible to minimize parasitic inductance, which can shift the 250kHz resonant peak."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bringup",
+      "subSteps": [
+        {
+          "id": "bringup_1",
+          "title": "Verify 5V Qi charging and supercapacitor storage",
+          "partIds": [
+            "qi_receiver_module",
+            "supercap_50f"
+          ],
+          "detail": {
+            "summary": "Test the wireless charging input and energy storage of the supercapacitor system.",
+            "steps": [
+              "Place the Qi Wireless Module on a 5W charging pad and measure 5V_DC at VCC",
+              "Confirm the 50F Supercapacitor Module POS terminal voltage rises steadily toward 5V",
+              "Allow the supercapacitor to charge for 10 minutes then remove the charging pad",
+              "Measure the voltage retention at the POS terminal after 5 minutes of standby",
+              "Verify that the GND path is stable and shows zero potential difference from the NEG terminal"
+            ],
+            "tip": "Note that charging a 50F bank from zero takes significant time; use a high-current multimeter range to monitor the initial bulk charge safely."
+          }
+        },
+        {
+          "id": "bringup_2",
+          "title": "Calibrate boost converter output to stable 48V",
+          "partIds": [
+            "boost_48v_300w"
+          ],
+          "detail": {
+            "summary": "Adjust the boost converter potentiometer to lock the output at 48V DC.",
+            "steps": [
+              "Connect a multimeter set to DC Voltage across the VOUT+ and VOUT- pins",
+              "Power the 48V 300W Boost Converter via the 50F Supercapacitor Module",
+              "Turn the multi-turn trimmer potentiometer clockwise using a ceramic screwdriver",
+              "Monitor the display until the output reaches a stable 48.0V DC",
+              "Disconnect power and verify the setting remains consistent upon reboot"
+            ],
+            "tip": "Use a ceramic adjustment tool to prevent accidental shorts or induction interference during the calibration of the 300W rail."
+          }
+        },
+        {
+          "id": "bringup_3",
+          "title": "Test 250kHz switching frequency on GaN IC",
+          "partIds": [
+            "gan_power_ic",
+            "bias_resistor_1"
+          ],
+          "detail": {
+            "summary": "Verify 250kHz oscillation frequency at the GaN Power IC gate terminal.",
+            "steps": [
+              "Connect oscilloscope probe to GaN Power IC GATE_IN and ground clip to GND",
+              "Apply 5V DC power via the Qi Wireless Module to charge the supercapacitors",
+              "Measure the waveform period and verify a 4.0 microsecond cycle time",
+              "Observe the peak-to-peak voltage at the Bias Resistor P1 to confirm 5V AC amplitude",
+              "Adjust the resonant tank if the frequency deviates more than 5kHz from 250kHz"
+            ],
+            "tip": "Use a high-impedance 10x probe to avoid loading the resonant circuit, which can shift the measured frequency."
+          }
+        },
+        {
+          "id": "bringup_4",
+          "title": "Perform low-power vacuum leak test on glass assembly",
+          "partIds": [
+            "frosted_dycenian_globe",
+            "argon_canister"
+          ],
+          "detail": {
+            "summary": "Conduct a vacuum integrity and argon purity test on the globe assembly.",
+            "steps": [
+              "Evacuate the Dycenian Frosted Globe to 10^-5 Torr using a turbo-molecular pump",
+              "Backfill the chamber with Ultra-Pure Argon Fill to 5 mbar of pressure",
+              "Apply a 500V test signal to the GTM Ferrules to initiate a low-power glow",
+              "Monitor the plasma discharge for color consistency to verify argon purity",
+              "Observe pressure gauges for 10 minutes to ensure zero vacuum decay"
+            ],
+            "tip": "A shift from purple to blue-white during discharge indicates atmospheric nitrogen contamination from a leak."
+          }
+        },
+        {
+          "id": "bringup_5",
+          "title": "Measure resonant peak of ferrite transformer primary",
+          "partIds": [
+            "e65_ferrite_transformer",
+            "resonant_capacitor"
+          ],
+          "detail": {
+            "summary": "Verify the 250kHz resonant frequency of the ferrite transformer tank circuit.",
+            "steps": [
+              "Connect an oscilloscope probe across the Resonant Tank Capacitor pins P1 and P2",
+              "Apply a low-voltage 48V AC sweep signal to the Transformer PRI_A and PRI_B pins",
+              "Monitor the voltage amplitude while adjusting the signal generator frequency",
+              "Identify the frequency where the voltage peak occurs on the oscilloscope trace",
+              "Confirm the peak aligns with the design target of 250kHz ± 5kHz"
+            ],
+            "tip": "If the peak is off-frequency, adjust the primary winding turns or the Resonant Tank Capacitor value to tune the field."
+          }
+        }
+      ]
+    },
+    {
+      "id": "assemble",
+      "subSteps": [
+        {
+          "id": "assemble_1",
+          "title": "Mount GaN IC and resistor to chassis with thermal epoxy",
+          "partIds": [
+            "gan_power_ic",
+            "bias_resistor_1",
+            "finned_chassis"
+          ],
+          "detail": {
+            "summary": "Thermally bond the GaN Power IC and Bias Resistor to the aluminum chassis.",
+            "steps": [
+              "Clean the mounting surfaces on the Extruded Finned Chassis with anhydrous isopropyl alcohol",
+              "Mix two-part thermal epoxy and apply a thin layer to the GaN Power IC backplate",
+              "Press the GaN Power IC onto the flat internal wall of the chassis",
+              "Apply thermal epoxy to the Bias Resistor and position it adjacent to the IC",
+              "Clamp both components firmly for 24 hours to ensure a low-impedance thermal bond"
+            ],
+            "tip": "Ensure the epoxy layer is as thin as possible; excess thickness increases thermal resistance and may cause the GaN IC to overheat at 250kHz."
+          }
+        },
+        {
+          "id": "assemble_2",
+          "title": "Secure transformer and supercapacitors to finned chassis",
+          "partIds": [
+            "e65_ferrite_transformer",
+            "supercap_50f",
+            "finned_chassis"
+          ],
+          "detail": {
+            "summary": "Mount the ferrite transformer and supercapacitor module to the aluminum chassis.",
+            "steps": [
+              "Align the E65 Ferrite Core Transformer with the pre-drilled chassis mounting holes",
+              "Insert and tighten M3 bolts through the transformer base into the Finned Chassis",
+              "Peel the protective backing from the 50F Supercapacitor Module adhesive pad",
+              "Firmly press the supercapacitor module into the internal cavity of the Finned Chassis",
+              "Verify that both components are immobile and clear of the cooling fins"
+            ],
+            "tip": "Apply a thin layer of non-conductive thermal paste between the transformer and chassis to improve heat dissipation during 250kHz operation."
+          }
+        },
+        {
+          "id": "assemble_3",
+          "title": "Bond ceramic pucks and discharge tube to quartz stem",
+          "partIds": [
+            "ag_doped_ceramic_puck",
+            "au_doped_ceramic_puck",
+            "uv_c_discharge_tube",
+            "quartz_stem_rod"
+          ],
+          "detail": {
+            "summary": "Mount the ceramic excitation pucks and UV-C tube to the quartz support stem.",
+            "steps": [
+              "Apply a thin layer of high-temp ceramic adhesive to the Silver and Gold Doped Ceramic Pucks",
+              "Press the ceramic pucks onto the Internal Lead Shield quartz rod at 15mm intervals",
+              "Secure the UV-C Discharge Tube against the quartz rod using high-temp Kapton wrap",
+              "Align the excitation pucks so the HV_IN pins face the bottom of the stem",
+              "Cure the entire stem assembly in a kiln at 120°C for 60 minutes"
+            ],
+            "tip": "Handle the quartz stem with gloves to prevent finger oils from creating weak points during high-temperature plasma operation."
+          }
+        },
+        {
+          "id": "assemble_4",
+          "title": "Final argon backfill and sealing of glass globe",
+          "partIds": [
+            "frosted_dycenian_globe",
+            "argon_canister",
+            "high_temp_silicone_sealant"
+          ],
+          "detail": {
+            "summary": "Backfill the Dycenian Frosted Globe with argon and seal with high-temp silicone.",
+            "steps": [
+              "Place the assembled globe into a vacuum chamber and evacuate to 10^-3 Torr",
+              "Introduce Ultra-Pure Argon Fill until the internal pressure reaches 700 Torr",
+              "Apply a bead of High-Temp Silicone around the globe base interface",
+              "Press the globe onto the Finned Chassis and hold until the sealant sets",
+              "Allow the silicone to cure for 24 hours at room temperature"
+            ],
+            "tip": "Ensure the glass surface is cleaned with acetone before applying silicone to guarantee a hermetic seal."
+          }
+        },
+        {
+          "id": "assemble_5",
+          "title": "Attach LCP base and secure with locking screws",
+          "partIds": [
+            "lcp_e26_base",
+            "finned_chassis",
+            "chassis_set_screws"
+          ],
+          "detail": {
+            "summary": "Mount the Integrated LCP Base to the Extruded Finned Chassis using stainless screws.",
+            "steps": [
+              "Align the four mounting holes of the Integrated LCP Base with the tapped chassis ports",
+              "Insert four M2.5 stainless self-tapping screws through the LCP base into the chassis",
+              "Tighten the screws in a cross-pattern until the base is flush with the aluminum fins",
+              "Thread the M2.5x4mm Base Locking Screws into the secondary E26 security points",
+              "Check that the assembly is rigid and the E26 threaded interface shows no play"
+            ],
+            "tip": "Do not over-torque the M2.5 screws, as the LCP material can stress-fracture if the compression against the aluminum is too high."
+          }
+        }
+      ]
+    }
+  ],
+  "projectDescription": "High-frequency plasma lamp utilizing a 250kHz resonant field to excite a zirconia-yttria core and metal-doped ceramic pucks within a borosilicate globe. It features an E26 base with a 50F supercapacitor backup and GaN-driven power electronics to maintain stable purple spectral emissions.",
+  "instructionPreamble": {
+    "tools": [
+      "Glass blowing torch and fusion kit",
+      "High-vacuum pump with argon backfill station",
+      "Spot welder for platinum wire clips",
+      "Thermal epoxy and applicator",
+      "Ceramic adhesive applicator",
+      "M2.5 and M3 hex drivers",
+      "Soldering station with high-temperature solder",
+      "Precision tweezers"
+    ],
+    "assumptions": [
+      "Experience with high-voltage RF resonance systems",
+      "Access to a controlled atmosphere glass fusion environment",
+      "Knowledge of vacuum tube evacuation and degassing procedures",
+      "Clean room or dust-free environment for globe assembly"
+    ]
+  },
+  "electricalConnections": [
+    {
+      "source": "uv_c_discharge_tube",
+      "target": "capacitive_mesh_sleeve",
+      "type": "power",
+      "sourcePin": "HV_TERMINAL_B",
+      "targetPin": "RF_RETURN",
+      "voltage": "GND_REF"
+    },
+    {
+      "source": "ag_doped_ceramic_puck",
+      "target": "capacitive_mesh_sleeve",
+      "type": "power",
+      "sourcePin": "RF_RET",
+      "targetPin": "RF_RETURN",
+      "voltage": "GND_REF"
+    },
+    {
+      "source": "au_doped_ceramic_puck",
+      "target": "capacitive_mesh_sleeve",
+      "type": "power",
+      "sourcePin": "RF_RET",
+      "targetPin": "RF_RETURN",
+      "voltage": "GND_REF"
+    },
+    {
+      "source": "noble_gas_tube_ag",
+      "target": "capacitive_mesh_sleeve",
+      "type": "power",
+      "sourcePin": "CATHODE",
+      "targetPin": "RF_RETURN",
+      "voltage": "GND_REF"
+    },
+    {
+      "source": "noble_gas_tube_au",
+      "target": "capacitive_mesh_sleeve",
+      "type": "power",
+      "sourcePin": "CATHODE",
+      "targetPin": "RF_RETURN",
+      "voltage": "GND_REF"
+    },
+    {
+      "source": "boost_48v_300w",
+      "target": "e65_ferrite_transformer",
+      "type": "power",
+      "sourcePin": "VOUT+",
+      "targetPin": "PRI_TAP",
+      "voltage": "48V_DC"
+    },
+    {
+      "source": "e65_ferrite_transformer",
+      "target": "capacitive_mesh_sleeve",
+      "type": "power",
+      "sourcePin": "SEC_RET",
+      "targetPin": "RF_RETURN",
+      "voltage": "GND"
+    },
+    {
+      "source": "resonant_capacitor",
+      "target": "e65_ferrite_transformer",
+      "type": "power",
+      "sourcePin": "P1",
+      "targetPin": "PRI_A",
+      "voltage": "48V_AC"
+    },
+    {
+      "source": "resonant_capacitor",
+      "target": "e65_ferrite_transformer",
+      "type": "power",
+      "sourcePin": "P2",
+      "targetPin": "PRI_B",
+      "voltage": "48V_AC"
+    },
+    {
+      "source": "qi_receiver_module",
+      "target": "supercap_50f",
+      "type": "power",
+      "sourcePin": "VCC",
+      "targetPin": "POS",
+      "voltage": "5V_DC"
+    },
+    {
+      "source": "qi_receiver_module",
+      "target": "supercap_50f",
+      "type": "power",
+      "sourcePin": "GND",
+      "targetPin": "NEG",
+      "voltage": "GND"
+    },
+    {
+      "source": "supercap_50f",
+      "target": "boost_48v_300w",
+      "type": "power",
+      "sourcePin": "POS",
+      "targetPin": "VIN+"
+    },
+    {
+      "source": "supercap_50f",
+      "target": "boost_48v_300w",
+      "type": "power",
+      "sourcePin": "NEG",
+      "targetPin": "VIN-"
+    },
+    {
+      "source": "boost_48v_300w",
+      "target": "gan_power_ic",
+      "type": "power",
+      "sourcePin": "VOUT极",
+      "targetPin": "VIN",
+      "voltage": "48V_DC"
+    },
+    {
+      "source": "gan_power_ic",
+      "target": "e65_ferrite_transformer",
+      "type": "power",
+      "sourcePin": "VOUT",
+      "targetPin": "PRI_A",
+      "voltage": "48V_AC"
+    },
+    {
+      "source": "e65_ferrite_transformer",
+      "target": "gtm_ferrules",
+      "type": "power",
+      "sourcePin": "SEC_HV",
+      "targetPin": "IN",
+      "voltage": "2.5kV_RF"
+    },
+    {
+      "source": "gan_power_ic",
+      "target": "bias_resistor_1",
+      "type": "power",
+      "sourcePin": "GATE_IN",
+      "targetPin": "P1",
+      "voltage": "5V_AC"
+    },
+    {
+      "source": "bias_resistor_1",
+      "target": "gan_power_ic",
+      "type": "power",
+      "sourcePin": "P2",
+      "targetPin": "GND",
+      "voltage": "0V"
+    }
+  ],
+  "mechanicalConnections": [
+    {
+      "label": "platinum wire clip",
+      "source": "non_evaporable_getter",
+      "target": "quartz_stem_rod"
+    },
+    {
+      "label": "platinum wire clip",
+      "source": "non_evaporable_getter",
+      "target": "quartz_stem_rod"
+    },
+    {
+      "source": "capacitive_mesh_sleeve",
+      "target": "frosted_dycenian_globe",
+      "label": "high-temp kapton tape"
+    },
+    {
+      "source": "uv_c_discharge_tube",
+      "target": "quartz_stem_rod",
+      "label": "high-temp kapton wrap"
+    },
+    {
+      "source": "ag_doped_ceramic_puck",
+      "target": "quartz_stem_rod",
+      "label": "high-temp ceramic adhesive"
+    },
+    {
+      "source": "au_doped_ceramic_puck",
+      "target": "quartz_stem_rod",
+      "label": "high-temp ceramic adhesive"
+    },
+    {
+      "source": "large_zirconia_lattice",
+      "target": "quartz_stem_rod",
+      "label": "high-temp ceramic adhesive"
+    },
+    {
+      "source": "finned_chassis",
+      "target": "lcp_e26_base",
+      "label": "M2.5 self-tapping screw"
+    },
+    {
+      "source": "frosted_dycenian_globe",
+      "target": "finned_chassis",
+      "label": "GTM ferrule weld"
+    },
+    {
+      "source": "gan_power_ic",
+      "target": "finned_chassis",
+      "label": "thermal epoxy"
+    },
+    {
+      "source": "e65_ferrite_transformer",
+      "target": "finned_chassis",
+      "label": "M3 bolt"
+    },
+    {
+      "source": "supercap_50f",
+      "target": "finned_chassis",
+      "label": "adhesive pad"
+    },
+    {
+      "source": "gtm_ferrules",
+      "target": "frosted_dycenian_globe",
+      "label": "glass fusion"
+    },
+    {
+      "source": "bias_resistor_1",
+      "target": "finned_chassis",
+      "label": "thermal epoxy"
+    }
+  ],
+  "projectId": "7e5f3235-b1a9-4cb8-8b99-8354f5704712"
+}

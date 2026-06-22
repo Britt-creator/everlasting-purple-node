@@ -1,0 +1,72 @@
+[
+  {
+    "label": "platinum wire clip",
+    "source": "non_evaporable_getter",
+    "target": "quartz_stem_rod"
+  },
+  {
+    "label": "platinum wire clip",
+    "source": "non_evaporable_getter",
+    "target": "quartz_stem_rod"
+  },
+  {
+    "source": "capacitive_mesh_sleeve",
+    "target": "frosted_dycenian_globe",
+    "label": "high-temp kapton tape"
+  },
+  {
+    "source": "uv_c_discharge_tube",
+    "target": "quartz_stem_rod",
+    "label": "high-temp kapton wrap"
+  },
+  {
+    "source": "ag_doped_ceramic_puck",
+    "target": "quartz_stem_rod",
+    "label": "high-temp ceramic adhesive"
+  },
+  {
+    "source": "au_doped_ceramic_puck",
+    "target": "quartz_stem_rod",
+    "label": "high-temp ceramic adhesive"
+  },
+  {
+    "source": "large_zirconia_lattice",
+    "target": "quartz_stem_rod",
+    "label": "high-temp ceramic adhesive"
+  },
+  {
+    "source": "finned_chassis",
+    "target": "lcp_e26_base",
+    "label": "M2.5 self-tapping screw"
+  },
+  {
+    "source": "frosted_dycenian_globe",
+    "target": "finned_chassis",
+    "label": "GTM ferrule weld"
+  },
+  {
+    "source": "gan_power_ic",
+    "target": "finned_chassis",
+    "label": "thermal epoxy"
+  },
+  {
+    "source": "e65_ferrite_transformer",
+    "target": "finned_chassis",
+    "label": "M3 bolt"
+  },
+  {
+    "source": "supercap_50f",
+    "target": "finned_chassis",
+    "label": "adhesive pad"
+  },
+  {
+    "source": "gtm_ferrules",
+    "target": "frosted_dycenian_globe",
+    "label": "glass fusion"
+  },
+  {
+    "source": "bias_resistor_1",
+    "target": "finned_chassis",
+    "label": "thermal epoxy"
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "source": "uv_c_discharge_tube",
+    "target": "capacitive_mesh_sleeve",
+    "type": "power",
+    "sourcePin": "HV_TERMINAL_B",
+    "targetPin": "RF_RETURN",
+    "voltage": "GND_REF"
+  },
+  {
+    "source": "ag_doped_ceramic_puck",
+    "target": "capacitive_mesh_sleeve",
+    "type": "power",
+    "sourcePin": "RF_RET",
+    "targetPin": "RF_RETURN",
+    "voltage": "GND_REF"
+  },
+  {
+    "source": "au_doped_ceramic_puck",
+    "target": "capacitive_mesh_sleeve",
+    "type": "power",
+    "sourcePin": "RF_RET",
+    "targetPin": "RF_RETURN",
+    "voltage": "GND_REF"
+  },
+  {
+    "source": "noble_gas_tube_ag",
+    "target": "capacitive_mesh_sleeve",
+    "type": "power",
+    "sourcePin": "CATHODE",
+    "targetPin": "RF_RETURN",
+    "voltage": "GND_REF"
+  },
+  {
+    "source": "noble_gas_tube_au",
+    "target": "capacitive_mesh_sleeve",
+    "type": "power",
+    "sourcePin": "CATHODE",
+    "targetPin": "RF_RETURN",
+    "voltage": "GND_REF"
+  },
+  {
+    "source": "boost_48v_300w",
+    "target": "e65_ferrite_transformer",
+    "type": "power",
+    "sourcePin": "VOUT+",
+    "targetPin": "PRI_TAP",
+    "voltage": "48V_DC"
+  },
+  {
+    "source": "e65_ferrite_transformer",
+    "target": "capacitive_mesh_sleeve",
+    "type": "power",
+    "sourcePin": "SEC_RET",
+    "targetPin": "RF_RETURN",
+    "voltage": "GND"
+  },
+  {
+    "source": "resonant_capacitor",
+    "target": "e65_ferrite_transformer",
+    "type": "power",
+    "sourcePin": "P1",
+    "targetPin": "PRI_A",
+    "voltage": "48V_AC"
+  },
+  {
+    "source": "resonant_capacitor",
+    "target": "e65_ferrite_transformer",
+    "type": "power",
+    "sourcePin": "P2",
+    "targetPin": "PRI_B",
+    "voltage": "48V_AC"
+  },
+  {
+    "source": "qi_receiver_module",
+    "target": "supercap_50f",
+    "type": "power",
+    "sourcePin": "VCC",
+    "targetPin": "POS",
+    "voltage": "5V_DC"
+  },
+  {
+    "source": "qi_receiver_module",
+    "target": "supercap_50f",
+    "type": "power",
+    "sourcePin": "GND",
+    "targetPin": "NEG",
+    "voltage": "GND"
+  },
+  {
+    "source": "supercap_50f",
+    "target": "boost_48v_300w",
+    "type": "power",
+    "sourcePin": "POS",
+    "targetPin": "VIN+"
+  },
+  {
+    "source": "supercap_50f",
+    "target": "boost_48v_300w",
+    "type": "power",
+    "sourcePin": "NEG",
+    "targetPin": "VIN-"
+  },
+  {
+    "source": "boost_48v_300w",
+    "target": "gan_power_ic",
+    "type": "power",
+    "sourcePin": "VOUT极",
+    "targetPin": "VIN",
+    "voltage": "48V_DC"
+  },
+  {
+    "source": "gan_power_ic",
+    "target": "e65_ferrite_transformer",
+    "type": "power",
+    "sourcePin": "VOUT",
+    "targetPin": "PRI_A",
+    "voltage": "48V_AC"
+  },
+  {
+    "source": "e65_ferrite_transformer",
+    "target": "gtm_ferrules",
+    "type": "power",
+    "sourcePin": "SEC_HV",
+    "targetPin": "IN",
+    "voltage": "2.5kV_RF"
+  },
+  {
+    "source": "gan_power_ic",
+    "target": "bias_resistor_1",
+    "type": "power",
+    "sourcePin": "GATE_IN",
+    "targetPin": "P1",
+    "voltage": "5V_AC"
+  },
+  {
+    "source": "bias_resistor_1",
+    "target": "gan_power_ic",
+    "type": "power",
+    "sourcePin": "P2",
+    "targetPin": "GND",
+    "voltage": "0V"
+  }
+]
